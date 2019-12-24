@@ -46,5 +46,5 @@ __IMPORTANT NOTES:__
 * PORT NUMBER and HOSTNAME must be known information on both sides
 * Both SERVER and CLIENT MUST be on the same network
 * Server will run and listen forever until user uses the command "ctrl+c"
-* You can only send one message at a time
+* You can only send one message at a time (server send, then client, then server, so on...)
 * Server can handle only one connection at a time
