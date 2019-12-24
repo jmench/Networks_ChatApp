@@ -1,7 +1,7 @@
 # __Networks_ChatApp__
 ### Author: Jordan Menchen
 
-#### Program Description:
+__Program Description:__  
 This program serves as a basic client-server chat application. Any user can run a server on a certain port, and as long as the user is on the same
 network and knows the hostname of the computer running the server, then they can type messages back and forth until they choose to shut down the server or close the connection.
 
