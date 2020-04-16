@@ -13,12 +13,12 @@ I have provided a _Makefile_ for the program which makes compiling and running
 a piece of cake. Make sure to follow the steps in order:
 
 1. __To COMPILE:__ Make sure you are located in the directory of the two C files
-and the Makefile and type "make" into the command line, then press enter.
+and the Makefile and type `make` into the command line, then press enter.
 This will compile the files and return two executable files, each named
 "server" and "client" for their respective files.
 
 2. __To START SERVER:__ After typing "make", simply type the following command
-into the command line: "./server PORTNUM" where PORTNUM can be any number
+into the command line: `./server PORTNUM` where `PORTNUM` can be any number
 between 2000 and 65535. If the port you call is already in use, the program
 will print an error message and you will just need to run the command again
 with a new port number. Upon success, the screen will print out the steps
@@ -32,8 +32,8 @@ command "hostname" on the command line of the machine they are using as the
 server and it will print the hostname of that machine. The client will use
 this along with the port number to connect. After the client learns the
 hostname and port number, simply type the following command to connect to
-the server: "./client HOSTNAME PORTNUM" where HOSTNAME is the hostname of
-the server and PORTNUM is the port number the server is listening on. The
+the server: `./client HOSTNAME PORTNUM` where `HOSTNAME` is the hostname of
+the server and `PORTNUM` is the port number the server is listening on. The
 program will let the user know if the connection is successful or not.
 
 __How It Works:__  
@@ -42,7 +42,7 @@ wait for the server to send the first message. Upon receiving the first
 message, the client can then respond back to the server, and this can be
 repeated as long as the server is still running and no errors occur. To stop
 chatting and disconnect as a CLIENT, simply respond to the server with the
-message "!QUIT" and the connection will close. Upon the CLIENT closing a
+message `!QUIT` and the connection will close. Upon the CLIENT closing a
 connection, the server will recognize this and simply wait for a new
 connection.
 
