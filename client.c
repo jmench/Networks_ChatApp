@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
        exit(0);
     }
 
+    // convert string argument to an int for the port number
     portno = atoi(argv[2]);
 
     // create new socket
